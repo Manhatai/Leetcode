@@ -13,7 +13,7 @@ class Solution(object):
                 list2[num] = i              #dodaje liczbę do dicta jako indeks, sprawdzając kolejną liczbę
 
 
-#asd1
+#asd
 solution = Solution()
 nums = [2, 7, 11, 15]
 target = 9
