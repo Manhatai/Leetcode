@@ -1,4 +1,4 @@
-#Two sum
+#1. Two sum
 class Solution(object):
     def twoSum(self, nums, target):
         list2 = {}                          #dict zawierający numery jako klucze i ich indeksy jako value
