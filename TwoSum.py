@@ -1,7 +1,7 @@
 #1. Two sum
 class Solution(object):
     def twoSum(self, nums, target):
-        list2 = {}                          #dict zawierający numery jako klucze i ich indeksy jako value
+        list2 = {}                          #dict zawierający numery jako klucze i ich indeksy jako wartość
         for i, num in enumerate(nums):      #funkcja enumerate bierze z listy "nums": i jako indeks oraz num jako numer
             pozostały = target - nums[i]      #pozostały to wartość pozostała z odjęcia liczby o indeksie i od targetu
             if pozostały in list2:            #jeżeli pozostały znajduje się w list2:
